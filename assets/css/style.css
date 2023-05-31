@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e2227 !important;
+}
+.container{
+    height: 100vh;
+}
+nav{
+    background-color: #1e2227;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.nav-links a i{
+    font-size: 20px;
+}
