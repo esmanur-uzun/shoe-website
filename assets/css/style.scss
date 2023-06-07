@@ -1,5 +1,5 @@
 $background: #1e2227;
-$shoe-color: #b9c8ff,#b1ffdd,#ff6767,#9dff90;
+$shoe-color: #b9c8ff,#9dff90,#ff6767, #b1fff8;
 * {
   margin: 0px;
   padding: 0px;
@@ -99,6 +99,10 @@ nav {
   }
   &:nth-child(4) {
     background-color: nth($shoe-color, 4 );
+  }
+  button{
+    background: none;
+    border: none;
   }
   img {
     width: 120px;

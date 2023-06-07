@@ -94,13 +94,17 @@ nav {
   background-color: #b9c8ff;
 }
 .small-img:nth-child(2) {
-  background-color: #b1ffdd;
+  background-color: #9dff90;
 }
 .small-img:nth-child(3) {
   background-color: #ff6767;
 }
 .small-img:nth-child(4) {
-  background-color: #9dff90;
+  background-color: #b1fff8;
+}
+.small-img button {
+  background: none;
+  border: none;
 }
 .small-img img {
   width: 120px;
