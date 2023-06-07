@@ -1,115 +1,120 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-body{
-    background-color: #1e2227 !important;
-}
-.container{
-    height: 95vh;
-}
-nav{
-    background-color: #1e2227;
-}
-.nav-links a{
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-}
-.nav-links a i{
-    font-size: 20px;
-}
-.content h1{
-    font-size: 5vw;
-    color: white;
-    line-height: 90px;
-}
-.content p{
-    color: white;
-}
-.price{
-    color: white;
-}
-.btn{
-    color: white !important;
-    text-transform: uppercase;
-    background-color: red !important;
-    border-radius: 0px !important;
-    padding: 15px 50px 15px 50px !important;
-    transition: 0.5s ease !important;
-}
-.btn:hover{
-    background-color: #aa0505 !important;
-    transform: translateY(-5px);
-}
-@media screen and (max-width: 1025px) {
-    .content h1{
-        line-height: 50px;
-    }
-}
-@media screen and (max-width: 376px) {
-    .btn{
-        padding: 10px 20px 10px 20px !important;
-    }
-}
-.img-container{
-    background-color: red;
-}
-.img-container img{
-    width: 85%;
-    transition: 0.5s ease;
-    transform: rotate(-20deg);
-}
-.img-container img:hover{
-    transform: rotate(0);
-}
-.img-container h2{
-    font-size: 115px;
-    opacity: 0.3;
-    color: white;
-    position: absolute;
-}
-@media screen and (max-width: 426px) {
-    .img-container h2{
-        font-size: 65px;
-    }
-}
-@media screen and (max-width: 376px) {
-    .img-container h2{
-        font-size: 50px;
-    }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.small-img{
-    width: 80px;
-    height: 80px;
+body {
+  background-color: #1e2227 !important;
 }
-.small-img:nth-child(1){
-    background-color: #b9c8ff;
+
+nav {
+  background-color: #1e2227;
 }
-.small-img:nth-child(2){
-    background-color: #b1ffdd;
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
 }
-.small-img:nth-child(3){
-    background-color: #ff6767;
+.nav-links a i {
+  font-size: 20px;
 }
-.small-img:nth-child(4){
-    background-color: #9dff90;
+
+.content h1 {
+  font-size: 5vw;
+  color: white;
+  line-height: 90px;
 }
-.small-img img{
-    width: 120px;
+.content p {
+  color: white;
 }
+
+.price {
+  color: white;
+}
+
+.btn {
+  color: white !important;
+  text-transform: uppercase;
+  background-color: red !important;
+  border-radius: 0px !important;
+  padding: 15px 50px 15px 50px !important;
+  transition: 0.5s ease !important;
+}
+.btn:hover {
+  background-color: #aa0505 !important;
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 1025px) {
+  .content h1 {
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .btn {
+    padding: 10px 20px 10px 20px !important;
+  }
+}
+.img-container {
+  background-color: red;
+}
+.img-container img {
+  width: 85%;
+  transition: 0.5s ease;
+  transform: rotate(-20deg);
+}
+.img-container img:hover {
+  transform: rotate(0);
+}
+.img-container h2 {
+  font-size: 115px;
+  opacity: 0.3;
+  color: white;
+  position: absolute;
+}
+
 @media screen and (max-width: 426px) {
-    .small-img{
-        width: 50px;
-        height: 50px;
-    }
-    .small-img img{
-        width: 75px;
-    }
+  .img-container h2 {
+    font-size: 65px;
+  }
 }
-.small-img img:hover{
-    transform: translateX(-20px) ;
+@media screen and (max-width: 376px) {
+  .img-container h2 {
+    font-size: 50px;
+  }
 }
+.small-img {
+  width: 80px;
+  height: 80px;
+}
+.small-img:nth-child(1) {
+  background-color: #b9c8ff;
+}
+.small-img:nth-child(2) {
+  background-color: #b1ffdd;
+}
+.small-img:nth-child(3) {
+  background-color: #ff6767;
+}
+.small-img:nth-child(4) {
+  background-color: #9dff90;
+}
+.small-img img {
+  width: 120px;
+}
+.small-img img:hover {
+  transform: translateX(-20px);
+}
+
+@media screen and (max-width: 426px) {
+  .small-img {
+    width: 50px;
+    height: 50px;
+  }
+  .small-img img {
+    width: 75px;
+  }
+}/*# sourceMappingURL=style.css.map */
